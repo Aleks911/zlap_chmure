@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.CirrocumulusController">
+   <children>
+      <ImageView fitHeight="459.0" fitWidth="633.0" layoutX="-10.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/Cc.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_return" layoutX="219.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="100.0" prefWidth="161.8" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="176.76" prefWidth="286.0" text="Cirrocumulus (Cc ) – chmura w postaci cienkiej, białej ławicy, której poszczególne elementy mają rozmiar kątowy poniżej jednego stopnia (widziane z powierzchni Ziemi).&#10;Są to chmury wysokie, występujące na wysokości od 6000 do 12 000 m. Zbudowane z samych kryształków lodu, nie dają opadów. Powstają w wyniku powolnego podgrzewania od dołu chmur rodzaju cirrus lub cirrostratus.&#10;Od podobnych im chmur Altocumulus można je odróżnić tym, że są mniejsze i bardziej białe. Są też na tyle cienkie, że na ich kątowo dalszych od Słońca krawędziach nie tworzą się cienie.&#10;Szczególnym przypadkiem cirrusów są smugi kondensacyjne, które powstają pod tropopauzą w wyniku kondensacji pary wodnej w zetknięciu ze spalinami silników samolotu odrzutowego." wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

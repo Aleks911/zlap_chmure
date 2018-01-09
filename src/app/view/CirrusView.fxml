@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.CirrusController">
+   <children>
+      <ImageView fitHeight="453.0" fitWidth="697.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/cirrus.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_return" layoutX="219.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="100.0" prefWidth="161.8" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="176.76" prefWidth="286.0" text="Cirrus (Ci) – chmura pierzasta. Należy do chmur wysokich, zbudowanych z kryształków lodu. Chmury piętra wysokiego występują w górnej troposferze. Podstawa chmur pierzastych może wystąpić powyżej wysokości o temperaturze powietrza 0 °C, wyżej w atmosferze tropikalnej, niżej w obszarach polarnych. W Europie, chmura cirrus może występować na wysokości od 6 000 do 12 000 m. Temperatury w chmurach cirrus wynoszą zwykle od −10 °C do −40 °C. Tropopauza jest naturalną barierą dla wierzchołków chmur pierzastych. Typowa chmura cirrus wyglądem przypomina nici pajęcze, delikatne włókna, „włosy anielskie”, pierze, nierzadko też kłaczki lub loczki." wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

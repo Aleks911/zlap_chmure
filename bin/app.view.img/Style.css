@@ -1,0 +1,15 @@
+.body {
+	-fx-background-image: url("burza1.jpg");
+	-fx-background-size: 600 400;	
+
+}
+
+.label {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.radio-button {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}

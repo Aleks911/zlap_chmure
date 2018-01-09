@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.AltoclController">
+   <children>
+      <ImageView fitHeight="409.0" fitWidth="610.0" layoutX="-6.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/altocumulus-lenticularis.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_return" layoutX="219.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="100.0" prefWidth="161.8" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="176.76" prefWidth="286.0" text="Altocumulus lenticularis (chmura soczewkowata) to nieruchoma chmura w kształcie soczewki ustawiona pod kątem prostym do kierunku wiatru, a równolegle do linii gór. Jest typowa dla zjawiska fenowego.&#10;Kiedy powietrze o stabilnej wilgotności przepływa nad górą lub górami, po stronie zawietrznej mogą formować się duże fale stojące mas powietrza. Altocumulus lenticularis tworzą się właśnie na ich grzbietach. W sprzyjających warunkach chmury te utworzyć mogą długi rząd, formując tzw. „chmurę falistą”.&#10;Piloci samolotów unikają obszarów występowania tych chmur, gdyż często towarzyszą im turbulencje, jednak piloci szybowców poszukują ich ze względu na łatwe do zlokalizowania wiatry pionowe, (tzw. noszenia) sprzyjające nabieraniu wysokości podczas szybowania. Te „powietrzne windy” są bardzo silne, lecz spokojne, co pozwala na nadzwyczaj wysokie i dalekie loty. Aktualny rekord długości i wysokości szybowania: 3 000 kilometrów (wzdłuż pasma Andów) i wysokości 15 447 metrów, został osiągnięty dzięki temu zjawisku.&#10;Chmury altocumulus lenticularis z powodu swojego kształtu mylone bywają ze zjawiskiem UFO." wrapText="true" />
+   </children>
+</AnchorPane>

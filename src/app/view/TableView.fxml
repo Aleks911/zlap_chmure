@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.TableController">
+   <children>
+      <ImageView fitHeight="415.0" fitWidth="706.0" layoutX="-47.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/burza.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="t" layoutX="11.0" layoutY="14.0" prefHeight="279.0" prefWidth="579.0">
+        <columns>
+          <TableColumn fx:id="t_id" prefWidth="25.66668701171875" text="ID" />
+          <TableColumn fx:id="t_nazwa" prefWidth="53.333343505859375" text="NAZWA" />
+            <TableColumn fx:id="t_poczatek" prefWidth="67.0" text="POCZĄTEK" />
+            <TableColumn fx:id="t_koniec" prefWidth="50.33331298828125" text="KONIEC" />
+            <TableColumn fx:id="t_deszcz" prefWidth="50.33331298828125" text="DESZCZ" />
+            <TableColumn fx:id="t_grad" prefWidth="38.33331298828125" text="GRAD" />
+            <TableColumn fx:id="t_wyladowania" prefWidth="100.0" text="WYŁADOWANIA" />
+            <TableColumn fx:id="t_predkosc_wiatru" prefWidth="149.0" text="PRĘDKOŚĆ WIATRU m/s" />
+            <TableColumn fx:id="t_intensywnosc" prefWidth="41.0" text="INTENSYWNOŚĆ" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn_delete" layoutX="14.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#deleteAction" prefHeight="59.0" prefWidth="111.0" text="Usuń" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_return" layoutX="475.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="59.0" prefWidth="111.0" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

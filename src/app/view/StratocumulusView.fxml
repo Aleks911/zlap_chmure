@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.StratocumulusController">
+   <children>
+      <ImageView fitHeight="454.0" fitWidth="639.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/Stratocumulus.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_return" layoutX="219.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="100.0" prefWidth="161.8" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="176.76" prefWidth="286.0" text="Stratocumulus, Sc, chmura kłębiasto-warstwowa – chmura w postaci szarej warstwy lub wielu płatów przypominających kształtem bryły, które są przeważnie spłaszczone. Jest złożona z kropel chmurowych wody. Niekiedy towarzyszą jej niewielkie opady deszczu lub virga. Przeważnie występuje poniżej 2400 m. Warstwowa struktura jest często związana z inwersją temperatury powyżej wierzchołka." wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.AltcController">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="609.0" layoutX="-3.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../app.view.img/Altocumulus.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_return" layoutX="219.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#returnAction" prefHeight="100.0" prefWidth="161.8" text="Powrót" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="14.0" layoutY="14.0" prefHeight="176.76" prefWidth="286.0" text="Altocumulus (Ac) – rodzaj chmur piętra średniego złożonych z białych lub szarych drobnych członów, małych obłoków, a niekiedy przylegających do siebie i tworzących warstwę. W odróżnieniu od chmur pierzastych kłębiastych (Cirrocumulus) człony są większe niż koniec palca wyciągniętej w ich stronę ręki. Chmury średnie kłębiaste składają się z kropel wody, ale nie są to chmury opadowe. Występują w klimacie Polski w przedziale wysokości od około 2000 do 5000 m, niekiedy od około 2400 do 6100 m. Chmury tego rodzaju mają grubość od 200 do 700 m. Utrzymują się stosunkowo krótko." wrapText="true" />
+   </children>
+</AnchorPane>
